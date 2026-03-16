@@ -1,0 +1,7 @@
+SOCKSPort 0
+HiddenServiceDir /var/lib/tor/privatecall/
+HiddenServicePort 80 api:8080
+HiddenServicePort 443 api:8080
+HiddenServiceStatistics 0
+Log notice stderr
+DataDirectory /var/lib/tor
